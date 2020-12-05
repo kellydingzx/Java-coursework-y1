@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Multiple Field Search.</title>
+</head>
+<body>
+<div class="main">
+    <h1>The multiple attribute specifies that multiple options can be selected at once:</h1>
+    <form method="POST" action="/multiple_field_search_results.html">
+        <label for="fields">Choose the categories you want to search in:</label>
+        <select id="fields" name="fields" multiple>
+            <option value="ID">id</option>
+            <option value="BIRTHDATE">birthdate</option>
+            <option value="DEATHDATE">deathdate</option>
+            <option value="SSN">ssn</option>
+            <option value="DRIVERS">drivers</option>
+            <option value="PASSPORT">passport</option>
+            <option value="PREFIX">prefix</option>
+            <option value="FIRST">first</option>
+            <option value="LAST">last</option>
+            <option value="SUFFIX">suffix</option>
+            <option value="MAIDEN">maiden</option>
+            <option value="MARITAL">marital</option>
+            <option value="RACE">race</option>
+            <option value="ETHNICITY">ethnicity</option>
+            <option value="GENDER">gender</option>
+            <option value="BIRTHPLACE">birthplace</option>
+            <option value="ADDRESS">address</option>
+            <option value="CITY">city</option>
+            <option value="STATE">state</option>
+            <option value="ZIP">zip</option>
+        </select>
+    <p>Hold down the Ctrl (windows) or Command (Mac) button to select multiple options.</p>
+    <p>=================================================================================</p>
+    <p>Please input your keywords and seperate them by comma.</p>
+        <input type="text" name="keywords" placeholder="Multiple Keywords."/>
+        <input type="submit">
+    </form>
+</div>
+</body>
+</html>
